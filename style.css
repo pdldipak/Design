@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
-*, ::after, ::before {
+*{
     box-sizing: border-box;}
 
 body {
@@ -17,6 +17,7 @@ body {
     display:grid;;
     grid-template-rows:0.2fr 0.5fr 1fr 1.5fr 1fr 0.2fr ;
     grid-gap:5px;
+    
 }
 
 .nav{
@@ -25,6 +26,7 @@ body {
     background-color: white;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-color: blanchedalmond;
     
       
 }
